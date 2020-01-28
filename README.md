@@ -53,9 +53,9 @@ Then, use this command: <br />
 
 <pre>nmcli d wifi connect ***YYYYY*** password ***XXXXX***</pre>
 
-Instead of ***YYYYY*** you will put the name of your wifi <br />
-Instead of ***XXXXX*** you will put your password <br />
-##
+Instead of ***YYYYY***' you will put the name of your wifi <br />
+Instead of ***XXXXX***' you will put your password <br />
+
 
 ## Now, take a look at the screenshot below down below and see it's done:
 
