@@ -114,10 +114,13 @@ font-1 = "FontAwesome:size=11;3"
 font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
+; To import devicons/icomoon font to enable Chromium icon
+font-4 = "icomoon:size=15;3"
 
-modules-left = cpu-graph volume memory1 xbacklight
-modules-center = ewmh 
-modules-right = temperature1 discord date powermenu
+
+modules-left = cpu-graph volume chromium 
+modules-center =  ewmh
+modules-right = temperature1 weather date powermenu
 
 ;tray-detached = false
 ;tray-offset-x = 100
@@ -188,7 +191,7 @@ font-2 = "Noto Sans Mono:size=15;4"
 font-3 = "Bitstream Vera Sans:style=Roman:size=15;4"
 
 
-modules-left = volume memory1 cpu-graph
+modules-left = volume memory1 cpu-graph 
 modules-center = ewmh
 modules-right = discord filesystem date powermenu
 
@@ -423,7 +426,7 @@ format-background = ${colors.background}
 
 [module/cpu-graph]
 type = internal/cpu
-interval = 0.08
+interval = 0.06
 ;format = " <ramp-coreload>"
 format = " <ramp-coreload>"
 format-margin = 1
@@ -621,19 +624,19 @@ label = %date% %time%
 
 #################################################################
 
-[module/discord]
+[module/chromium]
 type = custom/script
-exec = echo "  Discord"
+exec = echo " Browser"
 ;exec = echo " "
-interval = 1
+interval = 0
 tail = true
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
 format-prefix-foreground = #738adb
 format-underline = ${colors.foreground-alt}
-click-left = discord &
-click-right = killall Discord | killall Discord | killall telegram-deskto
-format-prefix = ""
+click-left = chromium &
+click-right = killall Chromium | killall Chromium | killall chromium-deskto
+; format-prefix = ""
 label = %output%
 
 #################################################################
@@ -938,7 +941,7 @@ format-muted-background = ${colors.background}
 
 [module/weather]
 type = custom/script
-interval = 10
+interval = 0.8
 format = <label>
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground}
