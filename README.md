@@ -24,6 +24,7 @@ I Imported the Icomoon font to the 'config' file, so that, I was able to enable 
 And to wrap it up, I also removed the Memory Ram Module, just to get more room on the Polybar. <br />
 
 
+##
 In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chromium'.
 
 <pre>trizen -S chromium</pre>
