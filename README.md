@@ -39,7 +39,7 @@ Well, It's pretty simple. You just need to go to:<br />
 
 And edit the *'Config'* file. <br />
 
-// Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />
+## Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />
 
 Relax, You just need to open your lovely "Terminal" and type: <br />
 
