@@ -38,3 +38,29 @@ Well, It's pretty simple. You just need to go to:<br />
 <pre> cd ~/.config/polybar/</pre>
 
 And edit the *'Config'* file. <br />
+
+// Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />
+
+Relax, You just need to open your lovely "Terminal" and type: <br />
+
+<pre>nmcli d wifi list</pre>
+
+This command above will list all the wifi connections available. So, you just need to copy the name of the wifi you want to connect. You will find it under 
+*SSID* row. <b />
+##
+
+Then, use this command: <br />
+
+<pre>nmcli d wifi connect ***YYYYY*** password ***XXXXX***</pre>
+
+Instead of ***YYYYY*** you will put the name of your wifi <br />
+Instead of ***XXXXX*** you will put your password <br />
+##
+
+## Now, take a look at the screenshot below down below and see it's done:
+
+
+
+
+
+
