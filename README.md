@@ -26,12 +26,14 @@ And to wrap it up, I also removed the Memory Ram Module, just to get more room o
 ##
 
 
+------
+***Is the Browser Icone not working?***
 In order to use that 'Browser Icon' on the Polybar, don't forget to install 'Chromium'.
 
 <pre>trizen -S chromium</pre>
 
-
-## Hey, bruh, what if I don't want to use Chromium Browser? <br />
+------
+***Hey, bruh, what if I don't want to use Chromium Browser? <br />***
 
 Well, It's pretty simple. You just need to go to:<br />
 
@@ -39,7 +41,8 @@ Well, It's pretty simple. You just need to go to:<br />
 
 And edit the *'Config'* file. <br />
 
-## Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />
+------
+ ***Oh, God! How can I connect to a wifi connection? Where's the wifi icon? <br />***
 
 Relax, You just need to open your lovely "Terminal" and type: <br />
 
@@ -57,10 +60,13 @@ Instead of YYYYY you will put the name of your wifi<br />
 Instead of XXXXX you will put your password<br />
 ##
 
+------
 
-***Now, take a look at the screenshot below down below and see it's done:***
+***Now, take a look at the screenshot below down below and see how it's done:***
 
 ![Demo](https://i.imgur.com/0PiJS3n.jpg) <br />
+
+This step-by-step to connect to your wifi was only possible thanks to [Brad Heffernan](https://www.youtube.com/watch?v=SXZYJ4fa0C0&t=159s)
 
 
 
