@@ -37,4 +37,4 @@ Well, It's pretty simple. You just need to go to:<br />
 
 <pre> cd ~/.config/polybar/</pre>
 
-And edit the 'Config' file. <br />
+And edit the *'Config'* file. <br />
