@@ -47,7 +47,7 @@ Relax, You just need to open your lovely "Terminal" and type: <br />
 
 This command above will list all the wifi connections available. So, you just need to copy the name of the wifi you want to connect. You will find it under 
 *SSID* row. <b />
-##
+
 
 Then, use this command:<br />
 
