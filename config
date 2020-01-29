@@ -870,7 +870,7 @@ thermal-zone = 0
 ; Default reverts to thermal zone setting
 hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
 
-warn-temperature = 70
+warn-temperature = 100 ; The default is 70 in my case I set this to 100 for my own risk!
 format = <ramp> <label>
 format-foreground = ${colors.foreground}
 format-background = ${colors.background}
