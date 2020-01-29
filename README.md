@@ -62,7 +62,7 @@ Instead of XXXXX you will put your password<br />
 
 ------
 
-***Now, take a look at the screenshot below down below and see how it's done:***
+***Now, take a look at the screenshot down below and see how it's done:***
 
 ![Demo](https://i.imgur.com/0PiJS3n.jpg) <br />
 
